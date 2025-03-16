@@ -1,0 +1,30 @@
+
+# Tasks
+- Maths
+  - Vectors ✓
+  - Matrixs ✓
+  - Velocity ✓
+  - AffineTransform ✓
+  - Velocity ✓
+    - Move ship around
+  - Zoom ✓
+    - Zoom at cursor ✓
+  - Interpolation
+  - Transforms ✓
+- Nodes ✓
+  - Node dragging ✓ *with zoom*
+- Geometry
+  - Point ✓
+  - Intersecting
+    - Cursor enter ✓
+- IO
+  - Gestures ✓
+    - Cursor icon
+  - Keyboard **<--Working**
+- Fonts ✓
+  - Vector **Finish alphas**
+    - Static text ✓
+    - Dynamic text ✓
+- Audio
+- GUI framework
+- *Textures* (optional)
