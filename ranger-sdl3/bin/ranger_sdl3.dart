@@ -1,7 +1,7 @@
 import 'package:args/args.dart';
 
 import 'examples/example.dart';
-import 'examples/example_points.dart';
+import 'examples/example_debugtext.dart';
 
 const String version = '0.0.1';
 
@@ -59,6 +59,6 @@ void main(List<String> arguments) {
     printUsage(argParser);
   }
 
-  Example example = ExamplePoints();
+  Example example = ExampleDebugText();
   example.run();
 }
