@@ -1,5 +1,8 @@
 import 'package:args/args.dart';
 
+import 'examples/example.dart';
+import 'examples/example_primitives.dart';
+
 const String version = '0.0.1';
 
 ArgParser buildParser() {
@@ -26,6 +29,7 @@ void printUsage(ArgParser argParser) {
 
 void main(List<String> arguments) {
   final ArgParser argParser = buildParser();
+
   try {
     final ArgResults results = argParser.parse(arguments);
     bool verbose = false;
@@ -54,4 +58,7 @@ void main(List<String> arguments) {
     print('');
     printUsage(argParser);
   }
+
+  Example example = ExamplePrimitives();
+  example.run();
 }
