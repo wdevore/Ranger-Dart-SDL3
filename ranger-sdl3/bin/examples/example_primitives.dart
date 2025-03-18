@@ -16,9 +16,6 @@ class ExamplePrimitives extends Example {
 
     sdlSetHint(SDL_HINT_RENDER_VSYNC, '1');
 
-    Pointer<Pointer<SdlWindow>> pWindow = calloc();
-    Pointer<Pointer<SdlRenderer>> pRenderer = calloc();
-
     if (!sdlCreateWindowAndRenderer(
       'primitives',
       640,

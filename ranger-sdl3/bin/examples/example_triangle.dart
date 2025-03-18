@@ -14,6 +14,9 @@ class ExampleTriangle extends Example {
       return;
     }
 
+    Pointer<SdlWindow> window = nullptr;
+    Pointer<SdlRenderer> renderer = nullptr;
+
     sdlSetHint(SDL_HINT_RENDER_VSYNC, '1');
     window = SdlWindowEx.create(title: 'draw triangle', w: 1024, h: 768);
     if (window == nullptr) {
