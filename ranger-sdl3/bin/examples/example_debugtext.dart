@@ -83,6 +83,7 @@ class ExampleDebugText extends Example {
       sdlSetRenderScale(pRenderer.value, 4.0, 4.0);
       sdlRenderDebugText(pRenderer.value, 14, 65, "It can be scaled.");
       sdlSetRenderScale(pRenderer.value, 1.0, 1.0);
+
       sdlRenderDebugText(
         pRenderer.value,
         64,
